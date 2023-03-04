@@ -1,4 +1,45 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  border: 1px magenta solid;
+  width: 60rem;
+  height: 30rem;
+}
+
+.containerOne {
+  border: 1px orangered solid;
+  width: 15rem;
+  height: 30rem;
+  border-radius: 1.5rem;
+}
+
+#first-item {
+  background-color: hsl(264, 64%, 52%);
+}
+
+#second-item {
+  background-color: hsl(235, 46%, 20%);
+}
+
+.containerTwo {
+  border: 1px red solid;
+  width: 45rem;
+  height: 30rem;
+}
+
+.grid-item {
+  border: 1px violet solid;
+  width: 5rem;
+  height: 5rem;
 }
