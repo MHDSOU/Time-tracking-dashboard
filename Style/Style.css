@@ -12,34 +12,84 @@
 }
 
 .card-container {
-  border: 1px magenta solid;
+  display: flex;
   width: 60rem;
   height: 30rem;
+  border-radius: 1.5rem;
 }
 
 .containerOne {
-  border: 1px orangered solid;
   width: 15rem;
   height: 30rem;
   border-radius: 1.5rem;
 }
 
 #first-item {
-  background-color: hsl(264, 64%, 52%);
+  border: 1px red solid;
+  width: 15rem;
+  height: 65%;
+  border-radius: 1.5rem;
 }
 
 #second-item {
-  background-color: hsl(235, 46%, 20%);
+  border: 1px green solid;
+  width: 15rem;
+  height: 35%;
+  border-radius: 1.5rem;
 }
 
 .containerTwo {
-  border: 1px red solid;
+  display: flex;
   width: 45rem;
-  height: 30rem;
+  height: 15rem;
+  border-radius: 1.5rem;
 }
 
-.grid-item {
-  border: 1px violet solid;
-  width: 5rem;
-  height: 5rem;
+#premier-item {
+  border: 1px blue solid;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1.5rem;
+}
+
+#deuxieme-item {
+  border: 1px blue solid;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1.5rem;
+}
+
+#troisieme-item {
+  border: 1px blue solid;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1.5rem;
+}
+
+.containerThree {
+  display: flex;
+  width: 45rem;
+  height: 15rem;
+  border-radius: 1.5rem;
+}
+
+#quatrieme-item {
+  border: 1px blue solid;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1.5rem;
+}
+
+#cinquieme-item {
+  border: 1px blue solid;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1.5rem;
+}
+
+#sixieme-item {
+  border: 1px blue solid;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1.5rem;
 }
