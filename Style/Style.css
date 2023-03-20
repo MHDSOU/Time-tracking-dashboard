@@ -70,6 +70,14 @@ body {
   list-style-type: none;
 }
 
+#list-item li {
+  cursor: pointer;
+}
+
+#list-item li:hover {
+  color: white;
+}
+
 .containerTwo {
   display: flex;
   width: 45rem;
@@ -147,6 +155,44 @@ body {
 .second-card {
   background-color: hsl(235, 46%, 20%);
   width: 15rem;
-  height: 80%;
+  height: 81.25%;
   border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.second-card:hover {
+  background-color: hsl(246, 80%, 60%);
+}
+
+.nav-contain {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-contain p {
+  color: white;
+  font-size: 2rem;
+}
+
+.nav-contain img {
+  width: 7.5%;
+  height: 12.5%;
+}
+
+.second-card h1 {
+  padding-left: 2.5rem;
+  margin-top: 1.75rem;
+  color: white;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.second-card p {
+  padding-left: 2.5rem;
+  margin-top: 0.5rem;
+  color: hsl(236, 100%, 87%);
+  font-size: 0.7rem;
 }
